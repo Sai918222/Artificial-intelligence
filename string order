@@ -1,0 +1,7 @@
+test_string = "saveetha school of engineering"
+
+print("The original string : " + str(test_string))
+
+res = ''.join(sorted(test_string))
+	
+print("String after sorting : " + str(res))
